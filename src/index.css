@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  /* border:solid red 1px; */
+}
+body{
+    overflow-y: overlay;
+    overflow-x: hidden;
+    scrollbar-gutter: stable both-edges;
+
+}
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 1em;
+  border:solid #cde 2px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  border:solid #dae 2px;
+}

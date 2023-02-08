@@ -1,0 +1,89 @@
+@use '../helpers//sassVariables//variables' as v;
+
+.skills {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    pointer-events: none;
+
+    &__title {
+        position: absolute;
+        font-family: 'Poppins-Bold';
+        text-transform: uppercase;
+        font-size: 5em;
+        color: black;
+    }
+
+    &__skillsWrapper {
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        min-height: 80vh;
+        transition: margin-top 2s linear, margin-left 2s linear;
+    }
+
+    &__skill {
+        max-width: 10em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @keyframes float {
+            0% {
+                transform: translate(0%, 0%)
+            }
+
+            50% {
+                transform: translate(2%, 2%)
+            }
+
+            100% {
+                transform: translate(0%, 0%)
+            }
+        }
+    }
+
+    &__skillImage {
+        max-width: 8em;
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1);
+
+        filter: drop-shadow(0px 0px 10px #02c0a0);
+
+        &>img {
+            width: 100%;
+        }
+
+        &:hover {
+            transition: transform 0.3s ease-in-out;
+            transform: scale(1.1);
+        }
+    }
+
+    &__skillName {
+        font-family: 'Poppins-Medium';
+        color: black;
+        text-align: center;
+        padding: 0.5em;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width:v.$width) {
+    .skills {
+        height: fit-content;
+        margin-top: 10vh;
+
+
+        &__skill {
+            max-width: 20vw;
+        }
+
+        &__title {
+            font-size: 5vw;
+        }
+    }
+}

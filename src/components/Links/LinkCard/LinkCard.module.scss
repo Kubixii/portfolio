@@ -1,0 +1,68 @@
+@use '../../helpers//sassVariables//variables' as v;
+
+@keyframes glow {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    25% {
+        background-position: 20% 50%;
+    }
+
+    50% {
+        background-position: 40% 70%;
+    }
+
+    75% {
+        background-position: 20% 50%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.link {
+    background: rgb(54, 199, 56);
+    background: linear-gradient(45deg, rgba(54, 199, 56, 0.8995973389355743) 0%, rgba(56, 189, 107, 1) 18%, rgba(125, 230, 174, 1) 45%, rgba(61, 190, 184, 0.76234243697479) 79%, rgba(56, 154, 158, 1) 100%);
+    background-size: 200%;
+    box-shadow: 0px 0px 5px 0px black inset;
+    border-radius: 1em;
+    height: fit-content;
+    max-width: 20em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    background-position: 0% 0%;
+    animation: glow 5s linear infinite;
+    cursor: pointer;
+    transition: border-radius 0.2s ease-in-out;
+
+    &:hover {
+        border-radius: 2em;
+        transition: border-radius 0.2s ease-in-out;
+    }
+
+    &__linkImage {
+        width: inherit;
+
+        &>img {
+            width: 100%;
+        }
+    }
+
+    &__linkTitle {
+        font-size: 2em;
+        padding: 0.5em;
+        align-self: center;
+        font-family: 'Poppins-Medium';
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width:v.$width) {
+    .link {
+        max-width: 30vh;
+
+    }
+}

@@ -1,0 +1,21 @@
+.animations {
+
+    &__initialLink {
+        transform: translateY(10em);
+    }
+
+    &__animationLink {
+        animation: slideUpLink 0.5s forwards;
+
+        @keyframes slideUpLink {
+            0% {
+                transform: translateY(10em);
+            }
+
+            100% {
+                transform: translateY(0em);
+            }
+        }
+    }
+
+}

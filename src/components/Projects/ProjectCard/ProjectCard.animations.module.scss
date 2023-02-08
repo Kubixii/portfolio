@@ -1,0 +1,22 @@
+.animations {
+    &__initialCard {
+        transform: translateY(60%);
+        opacity: 0;
+    }
+
+    &__animationCard {
+        animation: appearCard 0.6s cubic-bezier(0, 1.31, .98, 1.01) forwards;
+
+        @keyframes appearCard {
+            0% {
+                transform: translateY(60%);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0%);
+                opacity: 1;
+            }
+        }
+    }
+}

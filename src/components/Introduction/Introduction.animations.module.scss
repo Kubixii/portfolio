@@ -1,0 +1,66 @@
+.animations {
+
+    &__initialSmallText {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    &__animationSmallText {
+
+        @keyframes showSmallText {
+            0% {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0%);
+                opacity: 1;
+            }
+        }
+
+        animation: showSmallText 1.5s cubic-bezier(0, 1.28, 1, 1.01) forwards;
+    }
+
+    &__initialName {
+        opacity: 0;
+    }
+
+    &__animationName {
+        animation: showName 2s cubic-bezier(0, 1.28, 1, 1.01) forwards;
+
+        @keyframes showName {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1
+            }
+        }
+
+
+    }
+
+    &__initialDescription {
+        overflow: hidden;
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    &__animationDescription {
+        animation: showDescription 1.5s cubic-bezier(0, 1.28, 1, 1.01) forwards;
+
+        @keyframes showDescription {
+            0% {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0%);
+                opacity: 1;
+            }
+        }
+    }
+}

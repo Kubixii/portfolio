@@ -1,0 +1,53 @@
+{
+    "init": {
+        "sidemenu": {
+            "aboutMe": "",
+            "skills": "",
+            "projects": "",
+            "links": ""
+        },
+        "introduction": {
+            "welcome": "",
+            "name": "",
+            "role": "",
+            "description": ""
+        },
+        "skillset": {
+            "title": ""
+        }
+    },
+    "pl": {
+        "sidemenu": {
+            "aboutMe": "o mnie",
+            "skills": "Umiejętności",
+            "projects": "Projekty",
+            "links": "odnośniki"
+        },
+        "introduction": {
+            "welcome": "cześć jestem",
+            "name": "Jakub Filipek",
+            "role": "JUNIOR FRONTEND DEVELOPER",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eligendi ad molestias optio repudiandae ipsum, ducimus rem. Molestiae, eius vero porro magni vel quis doloribus quia tempore voluptatem illo aspernatur. Voluptate dolores, voluptates maxime, quisquam, facere totam ab rem adipisci recusandae ad illum officia iusto sequi itaque architecto! Doloremque voluptatibus, provident similique culpa odio velit animi. Libero in delectus amet."
+        },
+        "skillset": {
+            "title": "umiejętności"
+        }
+    },
+    "en": {
+        "sidemenu": {
+            "aboutMe": "About me",
+            "skills": "skills",
+            "projects": "projects",
+            "links": "links"
+        },
+        "introduction": {
+            "welcome": "Hi, my name is",
+            "name": "Jakub Filipek",
+            "role": "JUNIOR FRONTEND DEVELOPER",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eligendi ad molestias optio repudiandae ipsum, ducimus rem. Molestiae, eius vero porro magni vel quis doloribus quia tempore voluptatem illo aspernatur. Voluptate dolores, voluptates maxime, quisquam, facere totam ab rem adipisci recusandae ad illum officia iusto sequi itaque architecto! Doloremque voluptatibus, provident similique culpa odio velit animi. Libero in delectus amet."
+        },
+        "skillset": {
+            "title": "skillset"
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "skills": [
+        {
+            "id": 0,
+            "name": [
+                "komunikacja",
+                "communication"
+            ],
+            "filename": "comunication.png"
+        },
+        {
+            "id": 1,
+            "name": [
+                "css",
+                "css"
+            ],
+            "filename": "css.png"
+        },
+        {
+            "id": 2,
+            "name": [
+                "gimp",
+                "gimp"
+            ],
+            "filename": "gimp.png"
+        },
+        {
+            "id": 3,
+            "name": [
+                "html",
+                "html"
+            ],
+            "filename": "html.png"
+        },
+        {
+            "id": 4,
+            "name": [
+                "js",
+                "js"
+            ],
+            "filename": "js.png"
+        },
+        {
+            "id": 5,
+            "name": [
+                "office",
+                "office"
+            ],
+            "filename": "office.png"
+        },
+        {
+            "id": 6,
+            "name": [
+                "php",
+                "php"
+            ],
+            "filename": "php.png"
+        },
+        {
+            "id": 7,
+            "name": [
+                "phpmyadmin",
+                "phpmyadmin"
+            ],
+            "filename": "phpmyadmin.png"
+        },
+        {
+            "id": 8,
+            "name": [
+                "react",
+                "react"
+            ],
+            "filename": "react.png"
+        },
+        {
+            "id": 9,
+            "name": [
+                "sass",
+                "sass"
+            ],
+            "filename": "sass.png"
+        },
+        {
+            "id": 10,
+            "name": [
+                "sql",
+                "sql"
+            ],
+            "filename": "sql.png"
+        },
+        {
+            "id": 11,
+            "name": [
+                "troubleshooting",
+                "troubleshooting"
+            ],
+            "filename": "troubleshooting.png"
+        },
+        {
+            "id": 12,
+            "name": [
+                "język angielski (C1)",
+                "english (C1)"
+            ],
+            "filename": "uk_flag.png"
+        },
+        {
+            "id": 13,
+            "name": [
+                "windows",
+                "windows"
+            ],
+            "filename": "windows.png"
+        }
+    ]
+}

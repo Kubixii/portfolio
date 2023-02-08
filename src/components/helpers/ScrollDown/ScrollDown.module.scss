@@ -1,0 +1,64 @@
+@use '../sassVariables/variables' as v;
+
+.scrollDown {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    left: 0;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+
+
+    &__arrowsWrapper {
+        pointer-events: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: arrow 0.6s linear infinite;
+        transform: translateY(-0.6em);
+    }
+
+    &__arrow {
+        width: 1.5em;
+        display: flex;
+        justify-content: center;
+        height: 1em;
+
+        &>img {
+            width: 100%;
+        }
+
+
+    }
+
+    @keyframes arrow {
+        0% {
+            transform: translateY(-0.6em);
+        }
+
+        25% {
+            transform: translateY(-0.3em);
+        }
+
+        50% {
+            transform: translateY(-0.1em);
+
+        }
+
+        75% {
+            transform: translateY(-0.3em);
+        }
+
+        100% {
+            transform: translateY(-0.6em);
+        }
+    }
+}
+
+@media screen and (max-width:v.$width) {
+    .scrollDown {
+        bottom: -6.5vh;
+    }
+}

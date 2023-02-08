@@ -1,0 +1,71 @@
+.animations {
+
+
+    &__initialSkill {
+        opacity: 0;
+        filter: blur(1em);
+    }
+
+    &__animationSkill {
+        display: flex;
+    }
+
+    @for $i from 1 through 14 {
+        &__animationSkill:nth-child(#{$i}) {
+            $name: appearSkill#{$i};
+            $x: percentage(random(20)-40+random(80));
+            $y: percentage(random(20)-40+random(80));
+            animation: $name 1s cubic-bezier(0, 1.01, 1, 1) forwards;
+
+            @keyframes #{$name} {
+                0% {
+                    transform: translate($x, $y);
+                    opacity: 0;
+                    filter: blur(1em);
+                }
+
+                95% {
+                    transform: translate($x*0.001, $y*0.001);
+                }
+
+                100% {
+                    transform: translate(0%, 0%);
+                    opacity: 1;
+                    filter: blur(0);
+                }
+            }
+        }
+    }
+
+    &__initialTitle {
+        opacity: 0;
+        filter: blur(0.5em)
+    }
+
+    &__animationTitle {
+        opacity: 0;
+        animation: appear-disappear 5s ease-in-out forwards;
+
+        @keyframes appear-disappear {
+            0% {
+                opacity: 0;
+                filter: blur(0.5em)
+            }
+
+            25% {
+                opacity: 1;
+                filter: blur(0em)
+            }
+
+            75% {
+                opacity: 1;
+                filter: blur(0em)
+            }
+
+            100% {
+                opacity: 0;
+                filter: blur(0.5em)
+            }
+        }
+    }
+}
