@@ -2,16 +2,34 @@ import React, { useEffect, useState } from 'react'
 
 import ProjectCard from './ProjectCard/ProjectCard'
 import bemCssModules from 'bem-css-modules'
-import projects from './projects.json'
 import { default as projectsStyles } from './Projects.module.scss'
+
+// import projects from './projects.json'
+
 
 const style = bemCssModules(projectsStyles)
 
 const Projects = () => {
+
     const [projectsList, setProjectsList] = useState([])
+
     useEffect(() => {
-        setProjectsList(projects)
+        fetchData
     }, [])
+
+    const fetchData = () => {
+        fetch('projects.json', {
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        }
+        ).then((res) => {
+            return res.json();
+        }).then((json) => {
+            setProjectsList(json)
+        })
+    }
 
     const elements = projectsList
         .map(project => (
