@@ -18,7 +18,8 @@ const Projects = () => {
     }, [])
 
     const fetchData = () => {
-        fetch('https://kubixii.github.io/portfolio/projects.json', {
+        //TODO fix json fetchin in build
+        fetch('./projects.json', {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
