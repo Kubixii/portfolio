@@ -4,9 +4,6 @@ import ProjectCard from './ProjectCard/ProjectCard'
 import bemCssModules from 'bem-css-modules'
 import { default as projectsStyles } from './Projects.module.scss'
 
-// import projects from './projects.json'
-
-
 const style = bemCssModules(projectsStyles)
 
 const Projects = () => {
@@ -14,18 +11,20 @@ const Projects = () => {
     const [projectsList, setProjectsList] = useState([])
 
     useEffect(() => {
-        fetchData
+        fetchData()
     }, [])
 
     const fetchData = () => {
+        console.log("EE")
         //TODO fix json fetchin in build
-        fetch('./projects.json', {
+        fetch('https://kubixii.github.io/portfolio/projects.json', {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
             }
         }
         ).then((res) => {
+            console.log(res)
             return res.json();
         }).then((json) => {
             setProjectsList(json)
