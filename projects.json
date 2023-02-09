@@ -2,79 +2,79 @@
     {
         "id": 0,
         "title": {
-            "pl": "Lorem",
-            "en": "ee"
+            "pl": "Hangman",
+            "en": "Hangman"
         },
         "description": {
-            "pl": "Lorem ipsum ea aspernatur beatae optio, itaque, nesciunt nam quos consequatur!",
-            "en": "ggggg"
+            "pl": "Pierwszy mini projekt wykonany w React.js. Stworzony na bardzo wczesnym etapie mojej przygody.",
+            "en": "First mini project using React.js. Made at an early stage of my journey."
         },
-        "image": "http://via.placeholder.com/640x360",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/Kubixii/portfolio/gh-pages/images/kubixii.github.io_hangman_.png",
+        "link": "https://github.com/Kubixii/hangman"
     },
     {
         "id": 1,
         "title": {
-            "pl": "Ipsum",
-            "en": "aaaa"
+            "pl": "Analog Clock",
+            "en": "Analog Clock"
         },
         "description": {
-            "pl": "Ipsum",
-            "en": "ggggg"
+            "pl": "Nazwa mówi sama za siebie. Komponent analogowego zegara",
+            "en": "The name speaks for itself. Component with an analog clock"
         },
-        "image": "http://via.placeholder.com/640x360",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/Kubixii/portfolio/gh-pages/images/kubixii.github.io_analog_clock_.png",
+        "link": "https://github.com/Kubixii/analog_clock"
     },
     {
         "id": 2,
         "title": {
-            "pl": "Dolor",
-            "en": "ee"
+            "pl": "Mini projekty i zagadnienia",
+            "en": "Mini projects and topics"
         },
         "description": {
-            "pl": "Dolor",
-            "en": "ggggg"
+            "pl": "Zagadnienia które poruszałem przy nauce Reacta",
+            "en": "Topics I have addressed while learning React"
         },
-        "image": "http://via.placeholder.com/640x360",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/Kubixii/portfolio/gh-pages/images/default-placeholder.png",
+        "link": "https://github.com/Kubixii/React"
     },
     {
         "id": 3,
         "title": {
-            "pl": "Dolor",
-            "en": "fff"
+            "pl": "Prosta strona z kursami",
+            "en": "Basic Internet Courses"
         },
         "description": {
-            "pl": "Dolor",
-            "en": "ggggg"
+            "pl": "Końcowy projekt kursu Reacta",
+            "en": "Final project of a React course"
         },
-        "image": "http://via.placeholder.com/640x360",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/Kubixii/portfolio/gh-pages/images/default-placeholder.png",
+        "link": "https://github.com/Kubixii/Basic-Internet-Courses-project"
     },
     {
         "id": 4,
         "title": {
-            "pl": "Dolor",
-            "en": "dsfsd"
+            "pl": "Poprzednie portfolio",
+            "en": "Previous portfolio"
         },
         "description": {
-            "pl": "Dolor",
-            "en": "ggggg"
+            "pl": "Poprzednie portfolio wykonane rok wcześniej od obecnego",
+            "en": "Previous portfolio made a year prior to this one"
         },
-        "image": "http://via.placeholder.com/640x360",
-        "link": "sd"
+        "image": "https://raw.githubusercontent.com/Kubixii/portfolio/gh-pages/images/default-placeholder.png",
+        "link": "https://github.com/Kubixii/portfolio_old"
     },
-    {
+        {
         "id": 5,
         "title": {
-            "pl": "Dolor",
-            "en": "ds"
+            "pl": "Chat app",
+            "en": "Chat app"
         },
         "description": {
-            "pl": "Dolor",
-            "en": "ggggg"
+            "pl": "Aplikacja do chatu stworzona w React.js oraz przy użyciu Socket.io. Pierwsze spotkanie z Socket.io.",
+            "en": "A chat application developed in React.js and using Socket.io. First encounter with Socket.io."
         },
-        "image": "http://via.placeholder.com/640x360",
-        "link": ""
+        "image": "https://raw.githubusercontent.com/Kubixii/portfolio/gh-pages/images/chatApp.png",
+        "link": "https://github.com/Kubixii/chatApp"
     }
 ]
