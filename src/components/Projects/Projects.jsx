@@ -17,7 +17,7 @@ const Projects = () => {
     const fetchData = () => {
         console.log("EE")
         //TODO fix json fetchin in build
-        fetch('.projects.json', {
+        fetch('./projects.json', {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
