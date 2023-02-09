@@ -4,11 +4,12 @@ import './fonts/fonts.css'
 import Content from './components/Content/Content'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Router basename={'/portfolio'}>
+    {/* <Router basename={'/portfolio'}> */}
+    <Router basename={''}>
       <Content />
     </Router>
   </React.StrictMode>,

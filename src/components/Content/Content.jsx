@@ -6,9 +6,10 @@ import React from 'react'
 const Content = () => {
     return (
         <Routes>
-            <Route exact path='*' element={<Navigate to='/lang/pl' />} />
-            <Route exact path='/lang/:lang' element={<App />} />
-            <Route exact path='/lang/:lang' element={<App />} />
+            {/* <Route exact path='*' element={<Navigate to='/lang/pl' />} />
+            <Route exact path='/lang/:lang' element={<App />} /> */}
+            <Route exact path='*' element={<Navigate to='/pl' />} />
+            <Route exact path='/:lang' element={<App />} />
         </Routes>
     );
 }
