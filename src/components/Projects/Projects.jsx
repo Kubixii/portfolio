@@ -17,7 +17,7 @@ const Projects = () => {
     const fetchData = () => {
         console.log("EE")
         //TODO fix json fetchin in build
-        fetch('https://kubixii.github.io/portfolio/projects.json', {
+        fetch('https://raw.githubusercontent.com/Kubixii/portfolio/gh-pages/projects.json', {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json'
